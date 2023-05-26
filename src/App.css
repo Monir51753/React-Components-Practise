@@ -1,5 +1,24 @@
 .App {
   text-align: center;
+  background-color: #583df3;
+}
+
+.list-style {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: white;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-style span {
+  flex:2;
+}
+
+.list-style button {
+  flex:1;
 }
 
 .App-logo {
@@ -14,7 +33,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #305db6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +54,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul li {
+  list-style-type:none;
 }
